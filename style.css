@@ -1,0 +1,61 @@
+body {
+  background-color: #000;
+  font-family: "Lemon", sans-serif;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1224px;
+  margin: 0;
+}
+#time {
+  font-size: 100px;
+  font-family: "Lemon", serif;
+  color: #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mama {
+  display: flex;
+}
+.PAPA {
+  border-left: 2px solid white;
+  display: flex;
+  gap: 15px;
+  height: 100vh;
+}
+
+body.rouge {
+  background-color: red;
+}
+
+body.bleu {
+  background-color: blue;
+}
+
+body.jaune {
+  background-color: yellow;
+}
+
+body.noir {
+  background-color: black;
+}
+
+body.blanc {
+  background-color: white;
+}
+
+body.violet {
+  background-color: violet;
+}
+span {
+  display: flex;
+
+  margin-top: 80px;
+}
